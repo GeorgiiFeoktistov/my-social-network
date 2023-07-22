@@ -1,0 +1,31 @@
+.app-wrapper {
+  margin: 0 auto;
+  display: grid;
+  width: 1200px;
+
+  grid-template-areas: 
+  "head head"
+  "nav con";
+  grid-template-rows: 60px 1fr;
+  grid-template-columns: 2fr 10fr;
+  
+}
+
+.header{
+  grid-area: head;
+  background-color: black;
+}
+
+.header img {
+  width: 50px;
+}
+
+.nav{
+  grid-area: nav;
+  background-color: gainsboro;
+}
+
+.content {
+  grid-area: con;
+  background-color: aquamarine;
+}
