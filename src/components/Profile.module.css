@@ -1,0 +1,8 @@
+.content {
+    grid-area: con;
+    background-color: aquamarine;
+}
+
+.item {
+    color: green;
+}
